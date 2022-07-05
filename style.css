@@ -27,6 +27,7 @@
 
 html {
   background-color: #242424;
+  font-size: 1vw;
 }
 
 body {
@@ -47,12 +48,8 @@ a {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2vw;
   text-align: center;
-}
-
-p1 {
-  font-size: 1.2em;
 }
 
 .rainbow span{
