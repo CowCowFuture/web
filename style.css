@@ -49,6 +49,12 @@ a {
   color: var(--purple);
 }
 
+.button {
+  background: none;
+  border: none;
+  font-size: inherit;
+}
+
 h1 {
   font-size: 2em;
   text-align: center;
