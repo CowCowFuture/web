@@ -27,14 +27,16 @@
 
 html {
   background-color: #242424;
-  font-size: 1vw;
+  font-size: 1em;
 }
+
 
 body {
   height: 100%;
   width: 50%;
   margin: 20px auto;
   padding-bottom: 50px;
+  font-size: 100%
 }
 
 a {
@@ -48,9 +50,10 @@ a {
 }
 
 h1 {
-  font-size: 2vw;
+  font-size: 2em;
   text-align: center;
 }
+
 
 .rainbow span{
   animation: wave 1s linear var(--n) infinite forwards running, rainbow 3s linear var(--n) infinite forwards running;
@@ -80,4 +83,10 @@ h1 {
   67% {color: var(--blue);}
   83% {color: var(--purple);}
   100% {color: var(--red);}
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+   body {
+     font-size: 200%
+  }
 }
