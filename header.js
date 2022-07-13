@@ -1,4 +1,4 @@
-function funheader(){
+function rainbow(){
   var parent = document.getElementsByClassName("rainbow");
 
   for (var element = 0; element < parent.length; element++) {
@@ -12,4 +12,4 @@ function funheader(){
   }
 }
 
-funheader()
+rainbow()
