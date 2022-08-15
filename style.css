@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
-
 :root {
     --red: #ffcaca;
     --orange: #ffedc1;
@@ -21,7 +19,7 @@
 }
 
 * {
-  font-family: 'Pangolin', cursive;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
   color: var(--white);
 }
 
