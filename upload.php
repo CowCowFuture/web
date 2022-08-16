@@ -8,7 +8,8 @@
   <body>
 <?php
 $time = date("Y-m-dTH:i:s");
-$name = base64_encode($time);
+$ext = strtolower(pathinfo($_FILES['file']['name'],PATHINFO_EXTENSION));
+$name = base64_encode($time) . "." . $ext;
 $location = "upload/" . $name;
 
 if (move_uploaded_file($_FILES['file']['tmp_name'], $location)) {
