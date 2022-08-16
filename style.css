@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'pink_chickenregular';
+    src: url('fonts/pinkchicken-regular-webfont.woff2') format('woff2'),
+         url('fonts/pinkchicken-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 :root {
     --red: #ffcaca;
     --orange: #ffedc1;
@@ -19,13 +28,13 @@
 }
 
 * {
-  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-family: 'pink_chickenregular';
   color: var(--white);
 }
 
 html {
   background-color: #242424;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 
