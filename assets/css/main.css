@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
 
+:root {
+	--white: #eceff4;
+	--black: #2e3440;
+	--purple: #b48ead;
+}
+
 * {
 	font-family: "JetBrains Mono";
+	color: var(--white);
+	text-align: center;
+}
+
+a {
+	color: var(--purple);
+}
+
+body {
+	background: var(--black);
 }
