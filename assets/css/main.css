@@ -9,13 +9,22 @@
 * {
 	font-family: "JetBrains Mono";
 	color: var(--white);
-	text-align: center;
+}
+
+body {
+	margin: 0 auto;
+	max-width: 16em;
 }
 
 a {
 	color: var(--purple);
 }
 
+h1 {
+	text-align: center;
+}
+
 body {
 	background: var(--black);
+	margin: 0 auto;
 }
