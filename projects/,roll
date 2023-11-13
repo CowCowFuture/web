@@ -1,5 +1,0 @@
-#!/bin/sh
-
-RAND=$(od -vAn -N2 -tu2 < /dev/urandom)
-
-echo "$USER rolled $(($RAND % 101))"
