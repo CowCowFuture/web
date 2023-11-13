@@ -18,12 +18,12 @@
     --darkgreen: #3E885B;
     --darkblue: #7fb4f5;
 
-    --white: #fefefa;
+    --white: #e2e2ed;
     --lightgray: #94B0C2;
     --lightblue: #d1e9ff;
     --gray: #ADACB5;
     --darkgray: #333C57;
-    --black: #454545;
+    --black: #181818;
     --trueblack: #000000;
 }
 
@@ -33,7 +33,7 @@
 }
 
 html {
-  background-color: #242424;
+  background-color: #181818;
   font-size: 1.5em;
 }
 
@@ -53,7 +53,7 @@ a {
   position: relative;
   text-decoration: none;
   transition: linear 0.2s;
-  color: var(--purple);
+  color: #9c94c5;
 }
 
 .button {
@@ -67,6 +67,15 @@ h1 {
   text-align: center;
 }
 
+h2 {
+    color: #95a4c6;
+}
+h2:after {
+    content: ':';
+}
+
+/* didn't write this, wish I remember who did. I think it may have
+   been someone in the bucket webring */
 
 .rainbow span{
   animation: wave 1s linear var(--n) infinite forwards running, rainbow 3s linear var(--n) infinite forwards running;
