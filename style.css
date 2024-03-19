@@ -1,10 +1,16 @@
 @font-face {
-    font-family: 'pink_chickenregular';
+    font-family: 'jetbrainsmono';
+    src: url('fonts/JBM/JetBrainsMono-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pinkchicken';
     src: url('fonts/pinkchicken-regular-webfont.woff2') format('woff2'),
          url('fonts/pinkchicken-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 :root {
@@ -28,13 +34,12 @@
 }
 
 * {
-  font-family: 'pink_chickenregular';
   color: var(--white);
 }
 
 html {
   background-color: #181818;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 
@@ -43,7 +48,8 @@ body {
   width: 50%;
   margin: 20px auto;
   padding-bottom: 50px;
-  font-size: 100%
+  font-size: 100%;
+  font-family: 'jetbrainsmono';
 }
 
 a {
@@ -63,6 +69,7 @@ a {
 }
 
 h1 {
+  font-family: 'pinkchicken';
   font-size: 2em;
   text-align: center;
 }
